@@ -18,6 +18,8 @@ spec:
     registry: ghcr.io
   environments:
   - key: dev
+    owner: rosewu550
+    repository: jx3
   - key: staging
   ingress:
     domain: 192.168.8.240.nip.io
@@ -28,6 +30,8 @@ spec:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: jx3
   repository: bucketrepo
   secretStorage: vault
   vault: {}
